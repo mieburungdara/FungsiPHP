@@ -10,3 +10,18 @@
  * @link      http://github.com/mieburungdara/FungsiPHP
  * @version   1.0
  */
+
+
+namespace mieburungdara\FungsiPHP;
+
+class FungsiPHP
+{
+      public static function debugVar($var)
+    {
+        echo '<pre>';
+        print_r($var);
+        echo '</pre>';
+    }
+  
+  
+}
